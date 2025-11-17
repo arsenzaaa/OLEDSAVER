@@ -1,17 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net9.0-windows</TargetFramework>
-    <UseWindowsForms>true</UseWindowsForms>
-    <Nullable>disable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>OLED SAVER.ico</ApplicationIcon>
-    <AssemblyName>OLED SAVER</AssemblyName>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="OLED SAVER.ico">
-      <LogicalName>OLEDSaver.Resources.OledSaverIcon</LogicalName>
-    </EmbeddedResource>
-  </ItemGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>OLED SAVER.ico</ApplicationIcon>
+		<AssemblyName>OLED SAVER</AssemblyName>
+		<Platforms>x64</Platforms>
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>false</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="OLED SAVER.ico">
+			<LogicalName>OLEDSaver.Resources.OledSaverIcon</LogicalName>
+		</EmbeddedResource>
+	</ItemGroup>
 </Project>
