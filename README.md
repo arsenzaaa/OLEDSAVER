@@ -49,3 +49,10 @@
   - Список исключенных процессов.
   - Параметры формы и непрозрачности затемнения.
 - Также присутствует пункт `Start with Windows`, который включает/отключает программу в автозапуске.
+
+## Материалы, которые подтолкнули меня к созданию утилиты:
+  - https://www.youtube.com/watch?v=RbEgQrigiLc
+  - https://www.reddit.com/r/computadores/comments/1h0mm0b/galera_tem_como_consertar_esse_burnin_do_meu/#lightbox
+
+## Разработчик
+[![Telegram](https://img.shields.io/badge/Telegram-arsenzaa-2CA5E0?logo=telegram&logoColor=white)](https://t.me/arsenzaa)
